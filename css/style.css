@@ -178,8 +178,6 @@ footer ul li a{
         line-height: 1.4rem;
     }
 
-    
-
     .green-enery-masthead h1{
         padding: 0;
         top: 40%;
@@ -191,14 +189,16 @@ footer ul li a{
     .solution-content section{
         overflow: hidden;
     }
+
     .solution-content img{
         width: 25%;
         height: auto;
         float: left;
         margin-right: 2rem;;
     }
-    
+   
 }
+
 @media only screen and (min-width: 60rem) {
     nav{
         text-align: center;     
@@ -227,5 +227,4 @@ footer ul li a{
         text-align: center;
     }
 
-    
 }
