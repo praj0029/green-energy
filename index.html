@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green Energy</title>
+
+    <!-- Font Awesome Styles-->
+    <script src="https://kit.fontawesome.com/a51c9e11bd.js" crossorigin="anonymous"></script>
+
+    <!-- Google Font Style Sheet-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Proza+Libre:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <!-- Customized Style Sheet-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <!-- Navigation Menu -->
+        <nav>
+            <ul>
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <!-- END OF Navigation Menu -->
+        <!-- Masthead -->
+        <section class="green-enery-masthead">
+            <img src="./img/windfarm.jpg" alt="Windfarms" srcset="./img/windfarm.jpg">
+            <h1>Making Green Energy Affordable for People with Average Budget</h1>
+        </section>
+        <!-- END OF Masthead -->
+    </header>
+    <!-- Main Content -->
+    <main>
+        <section class="solutions-button-wrapper">
+            <button class="solution-btn" id="active-btn" data-id="solution-1"><i class="fas fa-3x fa-piggy-bank"></i> <span>Tax Credits</span></button>
+            <button class="solution-btn" data-id="solution-2"><i class="fas fa-3x fa-hand-holding-usd"></i><span>Federal Assistance Fund</span></button>
+            <button class="solution-btn" data-id="solution-3"><i class="fas fa-3x fa-solar-panel"></i><span>Community Solar</span></button>
+        </section>
+        <!-- Main Content the Load dynamically -->
+        <section class="solution-content" id="solution-content-wrapper"></section>
+    </main>
+    <!-- END OF Main Content -->
+    <!-- Footer -->
+    <footer>
+        <p>Find us on:</p>
+        <ul>
+            <li><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-2x fa-facebook"></i></a></li>
+            <li><a href="https://www.twitter.com" target="_blank"><i class="fab fa-2x fa-twitter"></i></a></li>
+            <li><a href="https://www.youtube.com" target="_blank"><i class="fab fa-2x fa-youtube"></i></a></li>
+        </ul>
+    </footer>
+    <!-- END OF Footer -->
+    <!-- Load Javascript file -->
+    <script src="./js/script.js"></script>
+</body>
+</html>
